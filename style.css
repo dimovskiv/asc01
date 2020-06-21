@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 body, html {
   padding: 0;
   margin: 0;
@@ -195,7 +196,7 @@ body, html {
 }
 
 .nav .active {
-  color: #EE6C4D !important;
+  color: #158fcb !important;
 }
 
 .header {
@@ -387,7 +388,7 @@ body, html {
 
 .intro .item .itemSub .btn {
   color: white;
-  background-color: #EE6C4D;
+  background-color: #158fcb;
   padding: 10px;
   padding-left: 15px !important;
   padding-right: 15px !important;
@@ -473,7 +474,7 @@ body, html {
 .mobile .topnav {
   height: 4%;
   width: 100%;
-  background-color: #EE6C4D;
+  background-color: #158fcb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,15 +509,22 @@ body, html {
   padding: 2rem;
 }
 
+.mobile #div1 p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
 .mobile #div1 .hr {
   width: 100%;
 }
 
 .mobile #div1 .hr hr {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 108, 77, 0)), to(#ee6c4d));
-  background-image: linear-gradient(to right, rgba(238, 108, 77, 0), #ee6c4d);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 108, 77, 0)), to(#158fcb));
+  background-image: linear-gradient(to right, rgba(238, 108, 77, 0), #158fcb);
   width: 100%;
-  height: 1px;
+  height: 2px;
 }
 
 .mobile #div1 .item {
@@ -531,6 +539,10 @@ body, html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .mobile #div1 .item #nazad {
@@ -542,11 +554,6 @@ body, html {
 
 .mobile #div1 .item #nazad .fas {
   color: white;
-}
-
-.mobile #div1 .item .text {
-  color: white;
-  text-align: center;
 }
 
 .mobile #div1 .item .form {
@@ -569,7 +576,7 @@ body, html {
 
 .mobile #div1 .item .form .btnn {
   padding: 10px;
-  background-color: #ee6c4d;
+  background-color: #158fcb;
   color: white;
   border: none;
   border-radius: 5%;
@@ -583,13 +590,12 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -597,6 +603,36 @@ body, html {
           flex-direction: column;
   background-color: whitesmoke;
   width: 100%;
+}
+
+.mobile .masthead #text {
+  border: 8px solid;
+  border-image-source: linear-gradient(210deg, rgba(21, 143, 203, 0.5), #e3fafd);
+  border-image-slice: 1;
+  padding: 20px;
+}
+
+.mobile .masthead .item1 .img-fluid {
+  width: 350px;
+}
+
+.mobile .masthead .item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: 'Anton';
+}
+
+.mobile .masthead .item h1 {
+  color: black;
+  line-height: 1.5;
+  opacity: 0.8;
 }
 
 .mobile .masthead .itemI {
@@ -645,22 +681,6 @@ input {
   height: 25px;
 }
 
-.item {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: left;
-}
-
-.item h1 {
-  color: black;
-}
-
 .button {
   position: absolute;
   bottom: 10%;
@@ -677,11 +697,10 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
+  width: 35%;
 }
 
 .button .item {
-  width: 35%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -694,12 +713,12 @@ input {
 }
 
 .button .item .fab {
-  color: #25D366;
+  color: rgba(37, 211, 102, 0.8);
 }
 
 button {
   padding: 10px;
-  background-color: #ee6c4d;
+  background-color: #158fcb;
   color: white;
   border: none;
   border-radius: 5%;
@@ -708,7 +727,7 @@ button {
 }
 
 .orange {
-  color: #EE6C4D;
+  color: #158fcb;
 }
 
 .navv {
@@ -747,7 +766,7 @@ button {
 }
 
 .navv .item .active {
-  color: #EE6C4D;
+  color: #158fcb;
   font-size: 30px;
 }
 
@@ -829,7 +848,7 @@ button {
     height: 100%;
   }
   .masthead .wrapper .item .orange {
-    color: #EE6C4D;
+    color: #158fcb;
   }
   .masthead .wrapper .i1 {
     width: 50%;
@@ -878,7 +897,7 @@ button {
     font-size: 40px;
     padding: 30px;
     background-color: transparent;
-    color: #EE6C4D;
+    color: #158fcb;
     border: none;
     border: 2px solid whitesmoke;
     -webkit-transition: 0.5s ease;
@@ -947,7 +966,7 @@ button {
     width: 60%;
   }
   .kontakt .wrapper .tekstkontakt .orange {
-    color: #EE6C4D;
+    color: #158fcb;
   }
   .kontakt .wrapper .contact {
     display: -webkit-box;
@@ -965,7 +984,7 @@ button {
     opacity: 1;
   }
   .kontakt .wrapper .contact .btn {
-    background-color: #EE6C4D;
+    background-color: #158fcb;
     color: whitesmoke;
   }
   .kontakt .wrapper .kk {
@@ -1034,7 +1053,7 @@ button {
     text-align: right;
   }
   .usluge .wrapper .text .orange {
-    color: #EE6C4D;
+    color: #158fcb;
   }
   .lokacija {
     display: -webkit-box;
@@ -1078,7 +1097,7 @@ button {
     text-align: right;
   }
   .lokacija .wrapper .text .orange {
-    color: #EE6C4D;
+    color: #158fcb;
   }
   .lokacija .map {
     display: -webkit-box;
@@ -1148,7 +1167,7 @@ button {
 }
 
 .portfolio .wrapper .absText .orange {
-  color: #EE6C4D;
+  color: #158fcb;
   font-size: 150px;
 }
 
@@ -1159,6 +1178,6 @@ input, textarea {
 
 .fa-chevron-left, .fa-chevron-right {
   font-size: 150px;
-  color: #EE6C4D;
+  color: #158fcb;
 }
 /*# sourceMappingURL=style.css.map */
